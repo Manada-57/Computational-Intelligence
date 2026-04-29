@@ -1,8 +1,0 @@
-(defun area-of-circle (radius)
-  (* pi (expt radius 2)))
-(defun run-circle-calc ()
-  (format t "~%Enter the radius: ")
-  (finish-output)
-  (let ((r (read)))
-    (format t "The area is: ~,2F~%" (area-of-circle r)))
-  (values))
